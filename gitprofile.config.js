@@ -19,12 +19,12 @@ const config = {
     youtube: '', // example: '+'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '', // example: ''
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
     email: 'zachschachter5@gmail.com',
   },
@@ -33,20 +33,15 @@ const config = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'SQL',
+    'R',
+    'Python',
+    'Power BI',
+    'Tableau',
+    'Excel',
+    'ArcGIS',
+    'AWS',
+    'Azure',
   ],
   experiences: [
     {
