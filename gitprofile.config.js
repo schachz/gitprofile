@@ -6,57 +6,47 @@ const config = {
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: TRUE, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
     linkedin: 'zachschachter',
-    twitter: '',
-    mastodon: '',
-    facebook: '',
     instagram: 'zschachary',
-    youtube: '', // example: '+'
-    dribbble: '',
-    behance: '',
-    medium: '',
-    dev: '',
-    stackoverflow: '', // example: ''
-    skype: '',
-    telegram: '',
     website: '',
-    phone: '',
     email: 'zachschachter5@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'SQL',
     'R',
     'Python',
+    'SAS',
     'Power BI',
     'Tableau',
     'Excel',
     'ArcGIS',
     'AWS',
     'Azure',
+    'Notion',
   ],
   experiences: [
     {
-      company: 'Company Name',
+      company: 'TATA Consumer Products',
       position: 'Position',
-      from: 'September 2021',
+      from: '2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://tataconsumer.com',
     },
     {
-      company: 'Company Name',
+      company: 'Aurora Lights Business Solutions',
       position: 'Position',
       from: 'July 2019',
       to: 'August 2021',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
   ],
   /* certifications: [
@@ -69,16 +59,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Florida',
+      degree: 'Master's in Statistics',
+      from: '2021',
+      to: '2023',
     },
     {
       institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      degree: 'Bachelor's in Economics, Minors in Statistics and Geography',
+      from: '2018',
+      to: '2021',
     },
   ],
 
@@ -101,8 +91,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
