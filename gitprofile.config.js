@@ -36,14 +36,14 @@ const config = {
   experiences: [
     {
       company: 'TATA Consumer Products',
-      position: 'Position',
+      position: '',
       from: '2022',
       to: 'Present',
       companyLink: 'https://tataconsumer.com',
     },
     {
       company: 'Aurora Lights Business Solutions',
-      position: 'Position',
+      position: '',
       from: 'July 2019',
       to: 'August 2021',
       companyLink: '',
@@ -65,7 +65,7 @@ const config = {
       to: '2023',
     },
     {
-      institution: 'Institution Name',
+      institution: 'University of Florida',
       degree: 'Bachelors in Economics, Minors in Statistics and Geography',
       from: '2018',
       to: '2021',
@@ -164,11 +164,8 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made with <a
+    >Github</a> and ❤️`,
 };
 
 export default config;
