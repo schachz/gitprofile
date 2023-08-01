@@ -118,9 +118,9 @@ const config = {
     hideAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
-  theme:{
-    'business'
-  }
+  themes: [
+      'business',
+    ],
 
     // Custom theme
     customTheme: {
