@@ -60,13 +60,13 @@ const config = {
   education: [
     {
       institution: 'University of Florida',
-      degree: 'Master's in Statistics',
+      degree: 'Masters in Statistics',
       from: '2021',
       to: '2023',
     },
     {
       institution: 'Institution Name',
-      degree: 'Bachelor's in Economics, Minors in Statistics and Geography',
+      degree: 'Bachelors in Economics, Minors in Statistics and Geography',
       from: '2018',
       to: '2021',
     },
