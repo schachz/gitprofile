@@ -85,7 +85,7 @@ const config = {
       title: 'Training clinicians to recommend the HPV vaccine using a C-LEAR communication strategy',
       description:
         'Research on strategies for clinicians to recommend HPV Vaccine',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://images.pexels.com/photos/7653120/pexels-photo-7653120.jpeg?auto=compress&cs=tinysrgb&w=250&h=250&dpr=1',
       link: 'https://doi.org/10.1016/j.pec.2022.10.269',
     },
   ],
