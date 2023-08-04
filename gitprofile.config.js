@@ -82,11 +82,11 @@ const config = {
       link: 'https://academyhealth.confex.com/academyhealth/2022di/meetingapp.cgi/Paper/55239',
     },
     {
-      title: 'Project Name',
+      title: 'Training clinicians to recommend the HPV vaccine using a C-LEAR communication strategy',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Research on strategies for clinicians to recommend HPV Vaccine',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://doi.org/10.1016/j.pec.2022.10.269',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
