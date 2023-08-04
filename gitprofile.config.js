@@ -75,11 +75,11 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Evaluation of a zoom-based clinician training on the c-lear hpv vaccine recommendation strategy',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Behavioral Research on HPV',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://academyhealth.confex.com/academyhealth/2022di/meetingapp.cgi/Paper/55239',
     },
     {
       title: 'Project Name',
