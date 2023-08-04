@@ -78,7 +78,7 @@ const config = {
       title: 'Evaluation of a zoom-based clinician training on the c-lear hpv vaccine recommendation strategy',
       description:
         'Behavioral Research on HPV',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://images.pexels.com/photos/4031821/pexels-photo-4031821.jpeg?auto=compress&cs=tinysrgb&w=250&h=250&dpr=1',
       link: 'https://academyhealth.confex.com/academyhealth/2022di/meetingapp.cgi/Paper/55239',
     },
     {
