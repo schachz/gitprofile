@@ -37,15 +37,15 @@ const config = {
     {
       company: 'TATA Consumer Products',
       position: '',
-      from: '2022',
+      from: 'May 2022',
       to: 'Present',
       companyLink: 'https://tataconsumer.com',
     },
     {
       company: 'Aurora Lights Business Solutions',
       position: '',
-      from: 'July 2019',
-      to: 'August 2021',
+      from: 'July 2020',
+      to: 'May 2022',
       companyLink: '',
     },
   ],
