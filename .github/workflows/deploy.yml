@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
   workflow_dispatch:
 
@@ -25,7 +26,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: '16'
           cache: 'npm'
 
       - name: Setup Pages
@@ -34,9 +35,8 @@ jobs:
       - name: Restore cache
         uses: actions/cache@v3
         with:
-          path: |
-            **/node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          path: '**/node_modules'
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install dependencies
         run: npm ci
