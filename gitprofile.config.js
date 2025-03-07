@@ -44,7 +44,7 @@ const config = {
     {
       company: 'Aurora Lights Business Solutions',
       position: '',
-      from: 'July 2020',
+      from: 'May 2020',
       to: 'May 2022',
       companyLink: '',
     },
